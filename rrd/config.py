@@ -4,15 +4,15 @@ import os
 #-- dashboard db config --
 DASHBOARD_DB_HOST = "127.0.0.1"
 DASHBOARD_DB_PORT = 3306
-DASHBOARD_DB_USER = "root"
-DASHBOARD_DB_PASSWD = ""
+DASHBOARD_DB_USER = "open_falcon_dev"
+DASHBOARD_DB_PASSWD = "open_falcon_dev"
 DASHBOARD_DB_NAME = "dashboard"
 
 #-- graph db config --
 GRAPH_DB_HOST = "127.0.0.1"
 GRAPH_DB_PORT = 3306
-GRAPH_DB_USER = "root"
-GRAPH_DB_PASSWD = ""
+GRAPH_DB_USER = "open_falcon_dev"
+GRAPH_DB_PASSWD = "open_falcon_dev"
 GRAPH_DB_NAME = "graph"
 
 #-- app config --
@@ -25,7 +25,7 @@ SITE_COOKIE = "open-falcon-ck"
 #-- query config --
 QUERY_ADDR = "http://127.0.0.1:9966"
 
-BASE_DIR = "/home/work/open-falcon/dashboard/"
+BASE_DIR = "D:/tmp/logs/open-falcon/dashboard/"
 LOG_PATH = os.path.join(BASE_DIR,"log/")
 
 try:
